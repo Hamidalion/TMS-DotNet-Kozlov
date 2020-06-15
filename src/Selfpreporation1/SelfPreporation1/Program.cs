@@ -33,10 +33,22 @@ namespace SelfPreporation1
           
             if (a == 1)
             {
-                Console.WriteLine("your favorite day of the week is Mondey and you are crazy");
+                Console.WriteLine("Your favorite day of the week is Mondey and you are crazy");
+            
+            if (a == 2)
+                {
+                    Console.WriteLine("You favorite day of the week is Tuesday");
+                }
+            if (a == 3)
+                {
+                    Console.WriteLine("You favorite day of the week is Wednesday");
+                }
+            if (a == 4)
+                {
+                    Console.WriteLine("You favorite day of the week is Thursday");
+                }
 
-            }
-            else
+                else
             {
                 Console.WriteLine($"Nomber {a} is odd");
             }
