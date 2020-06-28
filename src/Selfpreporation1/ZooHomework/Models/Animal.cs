@@ -48,22 +48,13 @@ namespace ZooHomework.Models
         {
             return _passport;
         }
+
         public void SetPassport(string passport)
         {
             _passport = passport;
         }
         
-
         public KindType Kind { get; set; }
-
-        /*public void GetInfo()
-        {
-            Console.WriteLine($"ID; {_id}");
-            Console.WriteLine($"Name; {Name}");
-            Console.WriteLine($"Kind; {Kind}");
-            Console.WriteLine($"Passport; {_passport}");
-        }
-        */
         
     }
 }

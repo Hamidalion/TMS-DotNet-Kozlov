@@ -1,12 +1,13 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Text;
+using ZooHomework.Enums;
 using ZooHomework.Interfaces;
 using ZooHomework.Models;
 
-namespace ZooHomework.Logic
+namespace ZooHomework.Manager
 {
-    class AnimalAction : IAnimalAction
+    class  AnimalAction : IAnimalAction
     {
         public void GetInfo(Animal animal)
         {
@@ -24,6 +25,23 @@ namespace ZooHomework.Logic
         public void SetPassport(Animal animal, string passport)
         {
             animal.SetPassport(passport);
+        }
+
+        public Animal CreateAnimal()
+        {
+            return new Animal();
+        }
+        public Animal CreateAnimal(string name)
+        {
+            return new Animal(name);
+        }
+        public Animal CreateAnimal (string name, KindType kind)
+        {
+            return new Animal(name, kind);
+        }
+        public Animal CreateAnimal(string name, KindType kind, string passport)
+        {
+            return new Animal(name, kind, passport);
         }
     }
 }
