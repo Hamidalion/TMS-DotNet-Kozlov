@@ -27,7 +27,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Self_Methods", "..\10_Se
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeBlog", "CodeBlog", "{DD20A3D7-61D6-4EF7-94CA-95A050C1BE25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "16_Self_Streams", "..\16_Self_Streams\16_Self_Streams.csproj", "{4C6A24CC-A98F-46DE-8A5B-0EAA6C26B05A}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16_Self_Streams", "..\16_Self_Streams\16_Self_Streams.csproj", "{4C6A24CC-A98F-46DE-8A5B-0EAA6C26B05A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Self_Сash register in the store_Thread", "..\Self_Сash register in the store_Thread\Self_Сash register in the store_Thread.csproj", "{4E46822A-721D-4CED-B87C-DE73ED586868}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -79,6 +81,10 @@ Global
 		{4C6A24CC-A98F-46DE-8A5B-0EAA6C26B05A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C6A24CC-A98F-46DE-8A5B-0EAA6C26B05A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C6A24CC-A98F-46DE-8A5B-0EAA6C26B05A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4E46822A-721D-4CED-B87C-DE73ED586868}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4E46822A-721D-4CED-B87C-DE73ED586868}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4E46822A-721D-4CED-B87C-DE73ED586868}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4E46822A-721D-4CED-B87C-DE73ED586868}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
