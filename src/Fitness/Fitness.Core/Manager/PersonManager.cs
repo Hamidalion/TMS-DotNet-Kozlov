@@ -11,7 +11,7 @@ namespace Fitness.Core.Manager
 {
     public class PersonManager : IPersonManager
     {
-        private readonly IList<Person> people;
+        public readonly IList<Person> people;
 
         private readonly IExerciseManager _exerciseManager;
 

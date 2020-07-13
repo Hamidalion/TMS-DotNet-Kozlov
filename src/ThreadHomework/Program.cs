@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using System.Drawing;
 using System.Threading;
 
-namespace Self_Сash_register_in_the_store_Thread
+namespace ThreadHomework
 {
     class Program
     {

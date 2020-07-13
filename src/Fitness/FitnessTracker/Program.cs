@@ -9,9 +9,11 @@ namespace FitnessTracker
     {
         static void Main(string[] args)
         {
-            IPersonManager parsonManager = new PersonManager();
+            IPersonManager personManager = new PersonManager();
+            IExerciseManager exerciseManager = new ExerciseManager();
 
-            parsonManager.CreateUsers("Nick", 15, 40, 100);
+            personManager.CreateUsers("Nick", 15, 40, 100);
+            var run = exerciseManager.Run(10, 100, 40, 15);
 
 
             Console.ReadKey();
