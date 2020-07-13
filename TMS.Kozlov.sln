@@ -36,8 +36,6 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "10_Self_Methods", "src\Code
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16_Self_Streams", "src\CodeBlog\16_Self_Streams\16_Self_Streams.csproj", "{9A033166-5D56-47D4-A489-C73243D7E152}"
 EndProject
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Zoo", "src\CodeBlog\Zoo\Zoo.csproj", "{C12DEE21-2A88-47BC-8BED-F79238994C11}"
-EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -96,10 +94,6 @@ Global
 		{9A033166-5D56-47D4-A489-C73243D7E152}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9A033166-5D56-47D4-A489-C73243D7E152}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9A033166-5D56-47D4-A489-C73243D7E152}.Release|Any CPU.Build.0 = Release|Any CPU
-		{C12DEE21-2A88-47BC-8BED-F79238994C11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{C12DEE21-2A88-47BC-8BED-F79238994C11}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{C12DEE21-2A88-47BC-8BED-F79238994C11}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{C12DEE21-2A88-47BC-8BED-F79238994C11}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -110,7 +104,6 @@ Global
 		{3480FCBF-548C-4234-B25A-5A244B294AAD} = {37E4CC09-E35C-4327-AC33-3296A72B42DB}
 		{132028CE-193B-4C9D-BCC8-5798A2C96B0E} = {37E4CC09-E35C-4327-AC33-3296A72B42DB}
 		{9A033166-5D56-47D4-A489-C73243D7E152} = {37E4CC09-E35C-4327-AC33-3296A72B42DB}
-		{C12DEE21-2A88-47BC-8BED-F79238994C11} = {37E4CC09-E35C-4327-AC33-3296A72B42DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8EF37285-0235-4B27-8E06-5EFCC01AA80F}
