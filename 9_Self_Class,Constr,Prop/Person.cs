@@ -30,6 +30,27 @@ namespace _9_Self_Class_Constr_Prop
             }
         }
 
+        /// <summary>
+        /// КОНСТРУКТОР
+        /// </summary>
+        /// <param name="secondName"></param>
+        /// <param name="name"></param>
+        public Person (string secondName, string name, int age)
+        {
+            if (age > 0 )
+            {
+
+            }
+            else
+            {
+
+            }
+            
+            SecondName = secondName;
+            Name = name;
+        }
+
+        // СТАРЫЕ СВОЙСТВА
         //public string Name 
         //{
         //    get 
