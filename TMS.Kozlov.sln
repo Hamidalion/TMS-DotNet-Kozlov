@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.30114.105
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Deligate", "src\Deligate\Deligate.csproj", "{BD758178-0326-48A8-B986-56F269B95355}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "15_Self_Delegate", "src\Deligate\15_Self_Delegate.csproj", "{BD758178-0326-48A8-B986-56F269B95355}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FirstHomeWork", "src\FirstHomework\FirstHomeWork.csproj", "{92696324-9232-4680-BA3B-5B6138D7770D}"
 EndProject
@@ -26,9 +26,6 @@ EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ZooHomework", "src\ZooHomework\ZooHomework.csproj", "{C4A1AA21-E3C1-49E6-B38D-184890FD53BC}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CodeBlog", "CodeBlog", "{37E4CC09-E35C-4327-AC33-3296A72B42DB}"
-	ProjectSection(SolutionItems) = preProject
-		src\CodeBlog\9_Self_Property\9_Self_Property.csproj = src\CodeBlog\9_Self_Property\9_Self_Property.csproj
-	EndProjectSection
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "8_Self_OOP_Principles", "src\CodeBlog\8_Self_OOP_Principles\8_Self_OOP_Principles.csproj", "{3480FCBF-548C-4234-B25A-5A244B294AAD}"
 EndProject
@@ -38,7 +35,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "16_Self_Streams", "src\Code
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "11_Self_Operator overload", "11_Self_Operator overload\11_Self_Operator overload.csproj", "{A33F0D4F-66C2-465F-A774-90F40DE0E6A6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "17_Self_Asunc,Await, Thread", "17_Self_Asunc,Await, Thread\17_Self_Asunc,Await, Thread.csproj", "{260BDEC1-ADBC-47C8-BA21-6D00462127D9}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "17_Self_Asunc,Await, Thread", "17_Self_Asunc,Await, Thread\17_Self_Asunc,Await, Thread.csproj", "{260BDEC1-ADBC-47C8-BA21-6D00462127D9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "9_Self_Class,Constr,Prop", "9_Self_Class,Constr,Prop\9_Self_Class,Constr,Prop.csproj", "{89F34E0D-508E-4B22-A079-135C6CA72723}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -106,11 +105,16 @@ Global
 		{260BDEC1-ADBC-47C8-BA21-6D00462127D9}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{260BDEC1-ADBC-47C8-BA21-6D00462127D9}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{260BDEC1-ADBC-47C8-BA21-6D00462127D9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{89F34E0D-508E-4B22-A079-135C6CA72723}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{89F34E0D-508E-4B22-A079-135C6CA72723}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{89F34E0D-508E-4B22-A079-135C6CA72723}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{89F34E0D-508E-4B22-A079-135C6CA72723}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(NestedProjects) = preSolution
+		{BD758178-0326-48A8-B986-56F269B95355} = {37E4CC09-E35C-4327-AC33-3296A72B42DB}
 		{E6551371-C9FC-40B6-8C02-708B75000ABE} = {8C95EB09-79EC-427D-BB1D-FF353AFF28CB}
 		{BECA37F8-4D3C-419C-A07E-24174804A6A8} = {8C95EB09-79EC-427D-BB1D-FF353AFF28CB}
 		{3480FCBF-548C-4234-B25A-5A244B294AAD} = {37E4CC09-E35C-4327-AC33-3296A72B42DB}
@@ -118,6 +122,7 @@ Global
 		{9A033166-5D56-47D4-A489-C73243D7E152} = {37E4CC09-E35C-4327-AC33-3296A72B42DB}
 		{A33F0D4F-66C2-465F-A774-90F40DE0E6A6} = {37E4CC09-E35C-4327-AC33-3296A72B42DB}
 		{260BDEC1-ADBC-47C8-BA21-6D00462127D9} = {37E4CC09-E35C-4327-AC33-3296A72B42DB}
+		{89F34E0D-508E-4B22-A079-135C6CA72723} = {37E4CC09-E35C-4327-AC33-3296A72B42DB}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {8EF37285-0235-4B27-8E06-5EFCC01AA80F}
